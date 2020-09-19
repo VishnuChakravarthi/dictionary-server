@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 
-const WordSchema = mongoose.Schema({
+// Schema for data in database
+const WordSchema = new mongoose.Schema({
   word: {
     type: [],
   },

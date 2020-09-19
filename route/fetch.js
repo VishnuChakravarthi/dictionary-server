@@ -11,11 +11,4 @@ router.get("/", async (req, res) => {
   }
 });
 
-router.post("/", async (req, res) => {
-  const word = new Word(req.body);
-
-  const savedWord = await word.save();
-  res.json(savedWord);
-});
-
 module.exports = router;

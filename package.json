@@ -7,7 +7,7 @@
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Vishnu",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -17,5 +17,8 @@
     "mongoose": "^5.10.5",
     "nodemon": "^2.0.4",
     "oxford-dictionary-api": "^1.0.1"
+  },
+  "engines": {
+    "node": "12.x"
   }
 }
