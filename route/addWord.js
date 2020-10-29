@@ -17,8 +17,8 @@ router.get("/:word", async (req, res) => {
     path: "/api/v2/entries/en-gb/" + wordId + "?strictMatch=" + strictMatch,
     method: "GET",
     headers: {
-      app_id: "f0185376",
-      app_key: "4dfd7dc9aeac9fdf8866905cd2337fa5",
+      app_id: "YOUR_APP_ID",
+      app_key: "YOUR_APP_KEY",
     },
   };
   var list = [];
